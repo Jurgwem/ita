@@ -1,0 +1,33 @@
+#month {
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.days {
+    color: black;
+    font-size: 20px;
+    place-self: center center;
+    margin: 0px;
+}
+
+.weekend {
+    color: red;
+    font-size: 20px;
+    place-self: center center;
+    margin: 0px;
+}
+
+.today {
+    color: rgb(0, 0, 255);
+    font-size: 20px;
+    place-self: center center;
+    margin: 0px;
+}
+
+.calender {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: auto;
+}
