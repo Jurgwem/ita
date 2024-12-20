@@ -1,5 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: Das Zwischenverzeichnis (x64\Debug\) enthält freigegebene Dateien aus einem anderen Projekt (3 Gewinnt.vcxproj). Dies kann zu einem falschen Bereinigungs- und Neuerstellungsverhalten führen.
-  ki_move.cpp
-C:\Users\weiss\OneDrive\Documents\BK-Hilden\ITA - Unterricht\ITA - SWE\Projektarbeit 3 Gewinnt\3 Gewinnt - Mit KI\3 Gewinnt\ki_move.cpp(4,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
-C:\Users\weiss\OneDrive\Documents\BK-Hilden\ITA - Unterricht\ITA - SWE\Projektarbeit 3 Gewinnt\3 Gewinnt - Mit KI\3 Gewinnt\ki_move.cpp(33,16): warning C4804: "<": unsichere Verwendung des Typs "bool" in einer Operation
-  3 Gewinnt.vcxproj -> C:\Users\weiss\OneDrive\Documents\BK-Hilden\ITA - Unterricht\ITA - SWE\Projektarbeit 3 Gewinnt\3 Gewinnt - Mit KI\x64\Debug\3 Gewinnt - Mit KI.exe
