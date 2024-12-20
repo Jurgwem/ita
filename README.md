@@ -5,3 +5,9 @@ Beinhaltet:
 - SPT 2024/25 (Mittelstufe)
 
 Ihr müsst selber rausfinden, wie alles Funktioniert
+
+
+# Credits
+
+- @Jurgwem
+- @LKW
