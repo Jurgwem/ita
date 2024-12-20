@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+C:\Users\Schueler\source\repos\Project4\FileName.cpp(80,6): warning C4101: "result": Unreferenzierte lokale Variable
+C:\Users\Schueler\source\repos\Project4\FileName.cpp(102,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+  Project4.vcxproj -> C:\Users\Schueler\source\repos\Project4\x64\Debug\Project4.exe

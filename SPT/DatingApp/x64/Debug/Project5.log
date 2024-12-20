@@ -1,0 +1,6 @@
+﻿  ShipV2.1.cpp
+C:\Users\Schueler\source\repos\Project5\ShipV2.1.cpp(7,12): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+C:\Users\Schueler\source\repos\Project5\ShipV2.1.cpp(14,13): warning C4244: "Initialisierung": Konvertierung von "__int64" in "int", möglicher Datenverlust
+C:\Users\Schueler\source\repos\Project5\ShipV2.1.cpp(13,9): warning C4101: "y": Unreferenzierte lokale Variable
+C:\Users\Schueler\source\repos\Project5\ShipV2.1.cpp(13,6): warning C4101: "x": Unreferenzierte lokale Variable
+  Project5.vcxproj -> C:\Users\Schueler\source\repos\Project5\x64\Debug\Project5.exe

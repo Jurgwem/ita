@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Schueler\\source\\repos\\Project5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD9E199-CC40-4540-B616-1C499246F65E}|Project5.vcxproj|C:\\Users\\Schueler\\source\\repos\\Project5\\ShipV2.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ABD9E199-CC40-4540-B616-1C499246F65E}|Project5.vcxproj|solutionrelative:ShipV2.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShipV2.1.cpp",
+              "DocumentMoniker": "C:\\Users\\Schueler\\source\\repos\\Project5\\ShipV2.1.cpp",
+              "RelativeDocumentMoniker": "ShipV2.1.cpp",
+              "ToolTip": "C:\\Users\\Schueler\\source\\repos\\Project5\\ShipV2.1.cpp",
+              "RelativeToolTip": "ShipV2.1.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-27T10:05:21.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

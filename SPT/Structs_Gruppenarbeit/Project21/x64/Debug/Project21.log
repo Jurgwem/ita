@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+C:\Users\Schueler\source\repos\Project21\FileName.cpp(149,10): warning C4101: "Laeufer": Unreferenzierte lokale Variable
+C:\Users\Schueler\source\repos\Project21\FileName.cpp(184,13): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+  Project21.vcxproj -> C:\Users\Schueler\source\repos\Project21\x64\Debug\Project21.exe

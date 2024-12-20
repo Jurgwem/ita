@@ -1,0 +1,5 @@
+﻿  FileName.cpp
+C:\Users\Schueler\source\repos\Project10\FileName.cpp(203,9): warning C4101: "denkplatte": Unreferenzierte lokale Variable
+C:\Users\Schueler\source\repos\Project10\FileName.cpp(226,15): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+C:\Users\Schueler\source\repos\Project10\FileName.cpp(244,35): warning C4244: "return": Konvertierung von "__time64_t" in "int", möglicher Datenverlust
+  Project10.vcxproj -> C:\Users\Schueler\source\repos\Project10\x64\Debug\Project10.exe

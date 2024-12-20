@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+C:\Users\Schueler\source\repos\Project13\FileName.cpp(5,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+  Project13.vcxproj -> C:\Users\Schueler\source\repos\Project13\x64\Debug\Project13.exe

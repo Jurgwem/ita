@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+C:\Users\Schueler\source\repos\GRUPPENARBEIT\FileName.cpp(278,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+  GRUPPENARBEIT.vcxproj -> C:\Users\Schueler\source\repos\GRUPPENARBEIT\x64\Debug\GRUPPENARBEIT.exe
