@@ -3,8 +3,12 @@
 Beinhaltet:
 - 3 Gewinnt
 - SPT 2024/25 (Mittelstufe)
+- PHP (beider Parteien)
+- JavaScript
+- Sicherheitsprogram & Decoder
+- random fun Programme
 
-Ihr müsst selber rausfinden, wie alles Funktioniert
+Ihr müsst selber rausfinden, wie alles wo Funktioniert
 
 
 # Credits
