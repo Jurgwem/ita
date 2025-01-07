@@ -1,7 +1,7 @@
 <html><head><title></title></head><body>
 <h1>7.1 und 8.1 Zinsrechner</h1>
 <?php
-if (empty($_POST["zinsen"]) && empty( $_POST["kapital"])) {
+if (empty($_POST["zinsen"]) || empty( $_POST["kapital"])) {
 ?>
     Geben Sie Ihren Daten ein:
     <form action="aufgabe7-1und8.1.php" method="post" >
