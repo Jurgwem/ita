@@ -8,7 +8,7 @@ Beinhaltet:
 - Sicherheitsprogram & Decoder
 - random fun Programme
 
-Ihr müsst selber rausfinden, wie alles wo Funktioniert
+Ihr müsst selber rausfinden, wie/wo alles Funktioniert
 
 
 # Credits
