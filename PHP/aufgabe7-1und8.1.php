@@ -4,7 +4,7 @@
 if (empty($_POST["zinsen"]) && empty( $_POST["kapital"])) {
 ?>
     Geben Sie Ihren Daten ein:
-    <form action="aufgabe7-1.php" method="post" >
+    <form action="aufgabe7-1und8.1.php" method="post" >
     Zinssatz: <input type="text" name="zinsen" size="20"><br>
     Startkapital: <input type="text" name="kapital" size="20">
     <input type="submit" value="Absenden">
@@ -33,22 +33,6 @@ else {
         $a = $c;
     }
     echo "</table>";
-
-    echo "<br><br>4.2 Monatszinsen<br><br>";    //Aufgabe 4.2
-
-    $a=$_POST["kapital"];     //Start Kapital
-    $b=$_POST["zinsen"];     //% Zinsen Pro Jahr
-    $d='60';        //# an Monaten
-
-    echo "<table border='3px'>";
-    echo "<th>Monat</th><th>Kapital</th>";
-    for ($x = 1; $x <= $d; $x++) {
-        $c=$a*(1+(($b / 12)/100));  //Teilen durch 12, da der Prozentsatz po Jahr gegeben ist, wir aber in Monaten ausgeben
-        $format = number_format($c, 2, ',', '.');
-        echo "<tr><td>$x</td><td>$format €</td></tr>";
-        $a = $c;
-
-    }
 }
 ?>
 </body></html>
