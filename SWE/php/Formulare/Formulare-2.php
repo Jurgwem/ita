@@ -12,7 +12,7 @@
 
     <form action="Formulare-2a.php" method="POST">
     <label for="pswd">Passswort</label>
-        <input type="password" name="pswd" size="20">
+        <input type="password" name="password" size="20">
         <input type="submit" value="Weiter">
     </form>
 </body>

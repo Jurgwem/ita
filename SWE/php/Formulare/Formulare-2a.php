@@ -9,7 +9,7 @@
 <body>
 <a href="/php/Formulare/Formulare-2.php">Zurück</a>
     <?php
-        echo "<p>Ihr Passwort lautet " . $_POST["pswd"] . "</p>";
+        echo "<p>Ihr Passwort lautet: <b>" . $_POST["password"] . "</b></p>";
     ?>
 </body>
 </html>
