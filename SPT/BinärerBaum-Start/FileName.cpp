@@ -139,9 +139,8 @@ void main()
 	Baum* wurzel;
 	wurzel = new Baum;
 	strcpy_s(wurzel->name, "Wurzel");
-	wurzel->vater = NULL;		//lol imagine no father
-	wurzel->mutter = NULL;		//Meine mama hat zwei penis
-								//ok.
+	wurzel->vater = NULL;		
+	wurzel->mutter = NULL;				
 
 	ui(wurzel, wurzel);
 }
