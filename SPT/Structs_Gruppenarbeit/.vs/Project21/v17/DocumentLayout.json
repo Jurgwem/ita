@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Schueler\\source\\repos\\Project21\\",
+  "WorkspaceRootPath": "C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Structs_Gruppenarbeit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{038DDFAD-A66F-4E42-9C25-6D561BD3AE4A}|Project21.vcxproj|C:\\Users\\Schueler\\source\\repos\\Project21\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{038DDFAD-A66F-4E42-9C25-6D561BD3AE4A}|Project21.vcxproj|C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Structs_Gruppenarbeit\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{038DDFAD-A66F-4E42-9C25-6D561BD3AE4A}|Project21.vcxproj|solutionrelative:FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FileName.cpp",
-              "DocumentMoniker": "C:\\Users\\Schueler\\source\\repos\\Project21\\FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Structs_Gruppenarbeit\\FileName.cpp",
               "RelativeDocumentMoniker": "FileName.cpp",
-              "ToolTip": "C:\\Users\\Schueler\\source\\repos\\Project21\\FileName.cpp",
+              "ToolTip": "C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Structs_Gruppenarbeit\\FileName.cpp",
               "RelativeToolTip": "FileName.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMMAAAABAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "OverriddenGroupName": "",
               "WhenOpened": "2024-12-05T10:36:14.211Z",
