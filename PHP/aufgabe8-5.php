@@ -23,7 +23,7 @@ else {
     {
         $canKanzler = false;
     }
-    if ( !(str_contains($_POST["staat"], "deutsch")))
+    if ( !(str_contains(strtolower($_POST["staat"]), "deutsch")))
     {
         $canPresident = false;
         $canKanzler = false;
