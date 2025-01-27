@@ -38,15 +38,15 @@
                 $_POST["yob"] = NULL;
                 echo "<form action='Formulare2-4.php'><input type='submit' value='Zurück'></form>";
             }
-            if ($number > 50) {
+            if ($number >= 50) {
                 $delivery = 8;
                 $discount = 0.08;
             }
-            if ($number > 100) {
+            if ($number >= 100) {
                 $delivery = 15;
                 $discount = 0.12;
             }
-            if ($number > 500) {
+            if ($number >= 500) {
                 $delivery = 0;
                 $discount = 0.25;
             }
@@ -78,7 +78,7 @@
                         <td>" . $price . "€</td>
                         <td>" . $discount*100 . "%</td>
                         <td>" . $netto . "€</td>
-                        <td>" . $delivery . "</td>
+                        <td>" . $delivery . "€</td>
                         <td>" . $mwst . "€</td>
                         <td>" . $sum . "€</td>
                         <td>" . $skonto . "%</td>
