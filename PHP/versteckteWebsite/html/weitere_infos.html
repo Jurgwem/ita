@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Langenfeld </title>
+		<link rel="icon" type="image/x-icon" href="../img/favicon.png">
+		<link rel="stylesheet" type="text/css" href="..\CSS\style.css" />
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1523302390854245" crossorigin="anonymous"></script>
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<meta charset="utf-8">
+		<script src="../js/formular.js" defer></script>
+	</head>
+	<body class="font">
+		<div class="navbar_grid">
+			<div class="navbarg" id="logo"><a href="../index.html" id="logo"><img src="../img/logo.png" height="50px"></a></div>
+			<div class="navbarg"><a href="../index.html">Startseite</a></div>
+			<div class="navbarg navbar_active"><a href="weitere_infos.html">Informationen</a></div>
+			<div class="navbarg"><a href="highlights.html">Highlights</a></div>
+			<div class="navbarg"><a href="bewerbung.html">Bewerben</a></div>
+			<div class="navbarg" id="logo"><a>&nbsp;</a></div>
+			<div class="navbarg"><a href="impressum.html">Impressum</a></div>
+		</div>
+		<div class="mg">
+            <div class="text" style="margin-top: 4%; padding-left: 4%;">
+                <h1> Sie hätten gerne NOCH MEHR Infos? </h1>
+                <div style="font-size: larger; font-weight: bold;">
+					<br>
+					<h4> Meine Newslette anmeldung: </h4>
+
+					<form class="font">
+						<label for ="name">Name: </label><br>
+						<input id="nameForm" type="text" name="name" size="25" maxlength="50" required><br>
+
+						<label for ="name">Vorname: </label><br>
+						<input id="firstnameForm" type="text" name="vorname" size="25" maxlength="50" required><br>
+
+						<label for ="geschlecht">Geschlecht: </label><br>
+						<input class="genderForm" type="radio" name="geschlecht" value="m" required> Männlich
+						<input class="genderForm" type="radio" name="geschlecht" value="w" required> Weiblich
+						<input class="genderForm" type="radio" name="geschlecht" value="d" required> Non-Binär <br>
+
+						<label for ="geburtsdatum">Geburtsdatum: </label><br>
+						<input id="birthdayForm" type="date" id="geburtsdatum" required><br>
+
+						<label for ="email">E-Mail: </label><br>
+						<input id="mailForm" type="text" name="email" size="25" maxlength="100" required><br>
+
+						<label for ="interests">Interessen: </label><br>
+						<input id="interestsForm" type="text" name="interests"><br>
+
+						<label for ="anliegen">Sonstiges:  </label><br>
+						<textarea id="anliegenForm" type="text" name="anliegen" cols="50" rows="10" maxlength="400"></textarea><br>	
+					
+						<input type="submit"><input type="reset">
+					</form>
+					<button onclick="formClick()">Ausgabe</button>
+					<div id="awesomesauce"></div>
+					<br><br>
+					<h1>To-Do List</h1>
+					<input type="text" id="task-input" placeholder="Add a task">
+					<button id="add-task" onClick="kevin()">Add Task</button>
+					<ul class="tasklist" id="task-list"></ul>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
