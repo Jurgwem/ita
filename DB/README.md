@@ -3,3 +3,10 @@
 Datenbanken inkl. Oracle Script Zeug<br />
 Siehe [dies](https://github.com/LukH-MC/ITAoberstufe) ebenfalls<br />
 thingmabob.zip ist confidential.
+
+```py
+import sys
+
+def main():
+    print('Hello, World')
+```
