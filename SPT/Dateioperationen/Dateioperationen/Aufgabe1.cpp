@@ -13,4 +13,5 @@ void main2() { // Bei Benutzung umbenennen in "main"!
 	else {
 		cout << endl << "Die Datei " << input << " wurde erfolgreich erstellt" << endl;
 	}
+	int fclose(FILE * f);
 }

@@ -19,7 +19,7 @@ void main() {
 		cout << "Die Datei existiert und kann geöffnet werden." << endl;
 	}
 	else {
-		cout << "Datei wurde nicht gefunden, möchten Sie ein anlegen? (1 = Ja, 0 = Nein)" << endl;
+		cout << "Datei wurde nicht gefunden, möchten Sie diese anlegen? (1 = Ja, 0 = Nein)" << endl;
 		cin >> input2;
 		if (input2 == 1)
 		{
