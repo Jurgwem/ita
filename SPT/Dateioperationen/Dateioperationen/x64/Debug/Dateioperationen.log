@@ -1,3 +1,3 @@
-﻿  Aufgabe1.cpp
-C:\Users\Schueler\OneDrive\Documents\BK-Hilden\2. Jahr\ITA - Unterricht\SPT\Verkettete Listen\Dateioperationen\Dateioperationen\Aufgabe1.cpp(6,13): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
-  Dateioperationen.vcxproj -> C:\Users\Schueler\OneDrive\Documents\BK-Hilden\2. Jahr\ITA - Unterricht\SPT\Verkettete Listen\Dateioperationen\x64\Debug\Dateioperationen.exe
+﻿  Aufgabe2.cpp
+C:\Users\Schueler\Documents\GitHub\ita\SPT\Dateioperationen\Dateioperationen\Aufgabe2.cpp(6,13): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+  Dateioperationen.vcxproj -> C:\Users\Schueler\Documents\GitHub\ita\SPT\Dateioperationen\x64\Debug\Dateioperationen.exe

@@ -3,7 +3,7 @@
 #include <cstdio>
 using namespace std;
 
-void main() { // Bei Benutzung umbenennen in "main"!
+void main2() { // Bei Benutzung umbenennen in "main"!
 	char input[10];
 
 	cout << "Bitte geben Sie den Dateinamen ein (mit '.txt' Endung): ";
