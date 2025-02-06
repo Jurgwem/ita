@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Schueler\\OneDrive\\Documents\\BK-Hilden\\2. Jahr\\ITA - Unterricht\\SPT\\Verkettete Listen\\Dateioperationen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|C:\\Users\\Schueler\\OneDrive\\Documents\\BK-Hilden\\2. Jahr\\ITA - Unterricht\\SPT\\Verkettete Listen\\Dateioperationen\\Dateioperationen\\Aufgabe1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|solutionrelative:Dateioperationen\\Aufgabe1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|C:\\Users\\Schueler\\OneDrive\\Documents\\BK-Hilden\\2. Jahr\\ITA - Unterricht\\SPT\\Verkettete Listen\\Dateioperationen\\Dateioperationen\\Aufgabe2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|solutionrelative:Dateioperationen\\Aufgabe2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Aufgabe2.cpp",
+              "DocumentMoniker": "C:\\Users\\Schueler\\OneDrive\\Documents\\BK-Hilden\\2. Jahr\\ITA - Unterricht\\SPT\\Verkettete Listen\\Dateioperationen\\Dateioperationen\\Aufgabe2.cpp",
+              "RelativeDocumentMoniker": "Dateioperationen\\Aufgabe2.cpp",
+              "ToolTip": "C:\\Users\\Schueler\\OneDrive\\Documents\\BK-Hilden\\2. Jahr\\ITA - Unterricht\\SPT\\Verkettete Listen\\Dateioperationen\\Dateioperationen\\Aufgabe2.cpp",
+              "RelativeToolTip": "Dateioperationen\\Aufgabe2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T11:13:14.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Aufgabe1.cpp",
+              "DocumentMoniker": "C:\\Users\\Schueler\\OneDrive\\Documents\\BK-Hilden\\2. Jahr\\ITA - Unterricht\\SPT\\Verkettete Listen\\Dateioperationen\\Dateioperationen\\Aufgabe1.cpp",
+              "RelativeDocumentMoniker": "Dateioperationen\\Aufgabe1.cpp",
+              "ToolTip": "C:\\Users\\Schueler\\OneDrive\\Documents\\BK-Hilden\\2. Jahr\\ITA - Unterricht\\SPT\\Verkettete Listen\\Dateioperationen\\Dateioperationen\\Aufgabe1.cpp",
+              "RelativeToolTip": "Dateioperationen\\Aufgabe1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T10:55:27.344Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
