@@ -1,13 +1,13 @@
-#define _CRT_SECURE_NO_WARNINGS
+#pragma warning(disable : 4996)
 #include <iostream>
 #include <cstdio>
 using namespace std;
 
-void main() {
+void main1() { // Bei Benutzung umbenennen in "main"!
 	std::locale de_DE("de_DE.UTF-8");
 	char input[32];
 	char combined[32] = "names/";
-	int input2 = 0;
+	int choice = 0;
 
 	cout << "Bitte geben Sie einen Namen ein: ";
 	cin >> input;
@@ -20,8 +20,8 @@ void main() {
 	}
 	else {
 		cout << "Datei wurde nicht gefunden, möchten Sie diese anlegen? (1 = Ja, 0 = Nein)" << endl;
-		cin >> input2;
-		if (input2 == 1)
+		cin >> choice;
+		if (choice == 1)
 		{
 			FILE* f = fopen(combined, "w");
 			cout << "Die Datei wurde angelegt mit dem Namen '" << input << "' unter '" << combined << "'" << endl;

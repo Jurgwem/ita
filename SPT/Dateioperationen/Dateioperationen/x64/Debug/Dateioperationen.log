@@ -1,6 +1,5 @@
-﻿  Aufgabe2.cpp
+﻿  Aufgabe2-2.cpp
+C:\Users\Schueler\OneDrive\Documents\BK-Hilden\2. Jahr\ITA - Unterricht\ita\SPT\Dateioperationen\Dateioperationen\Aufgabe2-2.cpp(6,13): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
   Aufgabe1.cpp
-C:\Users\Schueler\OneDrive\Documents\BK-Hilden\2. Jahr\ITA - Unterricht\ita\SPT\Dateioperationen\Dateioperationen\Aufgabe2.cpp(6,13): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
   Code wird generiert...
-  LINK : C:\Users\Schueler\OneDrive\Documents\BK-Hilden\2. Jahr\ITA - Unterricht\ita\SPT\Dateioperationen\x64\Debug\Dateioperationen.exe wurde nicht gefunden oder beim letzten inkrementellen Linkvorgang nicht erstellt; vollständiger Link wird durchgeführt.
   Dateioperationen.vcxproj -> C:\Users\Schueler\OneDrive\Documents\BK-Hilden\2. Jahr\ITA - Unterricht\ita\SPT\Dateioperationen\x64\Debug\Dateioperationen.exe
