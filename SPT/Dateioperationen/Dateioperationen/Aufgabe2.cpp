@@ -1,9 +1,9 @@
-#define _CRT_SECURE_NO_WARNINGS
+#pragma warning(disable : 4996)
 #include <iostream>
 #include <cstdio>
 using namespace std;
 
-void main() {
+void main3() {
 	std::locale de_DE("de_DE.UTF-8");
 	char input[32];
 	char combined[32] = "names/";
@@ -16,7 +16,7 @@ void main() {
 	FILE* f = fopen(combined, "r");
 	if (f != NULL)
 	{
-		cout << "Die Datei existiert und kann geöffnet werden." << endl;
+		cout << "Die Datei '" << combined << "' existiert bereits." << endl;
 	}
 	else {
 		cout << "Datei wurde nicht gefunden, möchten Sie diese anlegen? (1 = Ja, 0 = Nein)" << endl;
