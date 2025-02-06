@@ -1,0 +1,3 @@
+﻿  Aufgabe1.cpp
+D:\SWE\Iteration\Iteration\Iteration\Aufgabe1.cpp(6,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+D:\SWE\Iteration\Iteration\Iteration\Aufgabe1.cpp(14): error C4700: Die nicht initialisierte lokale Variable "quersumme" wurde verwendet.

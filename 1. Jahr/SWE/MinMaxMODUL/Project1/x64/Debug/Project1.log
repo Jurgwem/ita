@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\SWE\MinMaxMODUL\Project1\main.cpp(90,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+  Project1.vcxproj -> D:\SWE\MinMaxMODUL\Project1\x64\Debug\Project1.exe
