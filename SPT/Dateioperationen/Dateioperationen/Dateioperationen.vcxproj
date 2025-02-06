@@ -130,6 +130,7 @@
     <ClCompile Include="Aufgabe2-2.cpp" />
     <ClCompile Include="Aufgabe2.cpp" />
     <ClCompile Include="Aufgabe1.cpp" />
+    <ClCompile Include="Aufgabe3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

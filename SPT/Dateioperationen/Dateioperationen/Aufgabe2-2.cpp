@@ -3,7 +3,7 @@
 #include <cstdio>
 using namespace std;
 
-void main() {
+void main22() { // Bei Benutzung umbenennen in "main"!
 	char input[30 + 1];
 	int choice;
 
@@ -22,6 +22,7 @@ void main() {
 			FILE* f = fopen(input, "w");
 			cout << "Die Datei wurde erfolgreich angelegt" << endl;
 		}
+		fclose(f);
 	}
 	else cout << "Die Datei existiert bereits" << endl;
 }

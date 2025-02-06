@@ -3,7 +3,7 @@
 #include <cstdio>
 using namespace std;
 
-void main1() { // Bei Benutzung umbenennen in "main"!
+void main2() { // Bei Benutzung umbenennen in "main"!
 	std::locale de_DE("de_DE.UTF-8");
 	char input[32];
 	char combined[32] = "names/";
