@@ -1,0 +1,17 @@
+-=-=- Glasfaser -=-=-
+
+allermeist aus glas hergestellt
+durch die geringe dämpfung lassen sich große distanzen überbrücken
+für kurze distanzen werden polymeroptische fasern (POF) verwendet
+
+2 Arten:
+Multimode Kabel: 50 - 62,5 mü m
+Singlemode Kabel 9 mü m
+
+modale Bandbreite = Laufzeitprobleme durch Winkel des Lichts
+Multimode Fasern 5 Leistungsklassen: OM1 - OM5
+Singlemode Fasern 2 Leistungsklassen: OS1 - OS2
+
+In Singlemode Fasern nimmt das Licht den "geraden" Weg, daher keine Laufzeitprobleme
+Dämpfung begrenzt die Länge der Faserstrecke
+Lange Leitungen sind immer Singlemode Fasern

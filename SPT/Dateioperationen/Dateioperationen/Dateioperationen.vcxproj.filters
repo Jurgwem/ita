@@ -21,6 +21,9 @@
     <ClCompile Include="Aufgabe2.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Aufgabe2-2.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
     <ClCompile Include="Aufgabe3.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>

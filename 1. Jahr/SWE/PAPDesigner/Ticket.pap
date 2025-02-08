@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="7188C84F65F1DD57">
+  <PROJECT FORMAT="1.00" NAME="saa" AUTHOR="NiBresinski" CREATED="2023.09.14 11:46:04" MODIFIED="2023.09.25 08:17:53">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="Ticket" CREATED="2023.09.14 11:46:08" MODIFIED="2023.09.25 08:17:53">
+        <LAYOUT FORMAT="1.00" COLUMNS="3" ROWS="14">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Ticket]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Variabeln werden erstellt:
+Ticketpreis = Kommazahl
+Alter = ganze Zahl
+istStudent = Wahrheitswert]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="45">
+                <TEXT><![CDATA[Ausgabe von "geben Sie Ihr Ticketpreis ein"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="43">
+                <TEXT><![CDATA[Ticketpreis]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Ausgabe von "Wie alt sind Sie?"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[Alter]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[Alter des Kunden < 18?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[Ausgabe von "Sind Sie ein Student?"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="18">
+                <TEXT><![CDATA[istStudent]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="10">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="20">
+                <TEXT><![CDATA[Ist "istStudent" wahr?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="11">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="33">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="22">
+                <TEXT><![CDATA[Ticketpreis := Ticketpreis * 0.1]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="10">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="25">
+                <TEXT><![CDATA[Ticketpreis := Ticketpreis * 0.6]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="7">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="52">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="10">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="30">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="11">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="35">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="12">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="41">
+                <TEXT><![CDATA["Ticketpreis: " & Ticketpreis]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="13">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="45" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="10" TO="14" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="12" TO="16" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="14" TO="12" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="16" TO="18" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="19" FROM="18" TO="20" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="1" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="24" FROM="12" TO="22" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="26" FROM="20" TO="25" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="36" FROM="35" TO="41" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="57" FROM="22" TO="52" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="32" FROM="25" TO="30" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="34" FROM="20" TO="33" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="59" FROM="30" TO="35" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="37" FROM="33" TO="35" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="42" FROM="41" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="44" FROM="43" TO="10" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="46" FROM="45" TO="43" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="58" FROM="52" TO="30" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>

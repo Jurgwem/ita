@@ -1,0 +1,7 @@
+﻿  ausgabe.cpp
+  berechnung.cpp
+  eingabe.cpp
+  main.cpp
+D:\SWE\MinMaxMODUL\MinMaxMODULE\main.cpp(10,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+  Code wird generiert...
+  MinMaxMODULE.vcxproj -> D:\SWE\MinMaxMODUL\MinMaxMODULE\Debug\MinMaxMODULE.exe
