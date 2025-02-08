@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Dateioperationen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Dateioperationen\\Dateioperationen\\Aufgabe3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|solutionrelative:Dateioperationen\\Aufgabe3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Dateioperationen\\Dateioperationen\\Aufgabe1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|solutionrelative:Dateioperationen\\Aufgabe1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Dateioperationen\\Dateioperationen\\Aufgabe2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|solutionrelative:Dateioperationen\\Aufgabe2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Dateioperationen\\Dateioperationen\\Aufgabe1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|solutionrelative:Dateioperationen\\Aufgabe1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Dateioperationen\\Dateioperationen\\Aufgabe3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D4AAE37-B41B-4A1B-839E-89CB3BE87611}|Dateioperationen\\Dateioperationen.vcxproj|solutionrelative:Dateioperationen\\Aufgabe3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Aufgabe3.cpp",
               "DocumentMoniker": "C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Dateioperationen\\Dateioperationen\\Aufgabe3.cpp",
               "RelativeDocumentMoniker": "Dateioperationen\\Aufgabe3.cpp",
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Aufgabe1.cpp",
               "DocumentMoniker": "C:\\Users\\Schueler\\Documents\\GitHub\\ita\\SPT\\Dateioperationen\\Dateioperationen\\Aufgabe1.cpp",
               "RelativeDocumentMoniker": "Dateioperationen\\Aufgabe1.cpp",
