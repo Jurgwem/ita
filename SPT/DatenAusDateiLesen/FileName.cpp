@@ -31,23 +31,31 @@ void main() {
 		cout << "Die Datei '" << combined << "' existiert bereits, moechten Sie diese bearbeiten? (1 = Ja, 0 = Nein)" << endl;
 		cin >> input2;
 		fclose(f);
-		FILE* f = fopen(combined, "w");
-		cout << "Geben Sie nun ein, was eingetragen werden soll in die Datei (" << combined << ") (max. 32 Zeichen)" << endl;
-		cin >> input3;
+		if (input2 == 1)
+		{
+			cin.ignore();
+			FILE* f = fopen(combined, "w");
+			cout << "Geben Sie nun ein, was eingetragen werden soll in die Datei (" << combined << ") (max. 254 Zeichen)" << endl;
+			cin.getline(input3, 255);
 		
-		while (fgetc(f) != -1)
-		{
-			cout << fgetc(f) << endl;
-		}
-		for (int i = 0; i <= 101; i++)
-		{
-			if (input3[i] == '\0')
+			while (fgetc(f) != -1)
 			{
-				break;
+				cout << fgetc(f) << endl;
 			}
-			fputc(input3[i], f);
+			for (int i = 0; i <= 256; i++)
+			{
+				if (input3[i] == '\0')
+				{
+					break;
+				}
+				fputc(input3[i], f);
+			}
+			cout << "Inhalt der Datei wurde aktualisiert" << endl;
 		}
-
+		else 
+		{
+			cout << "Datei wurde nicht bearbeitet" << endl;
+		}
 	}
 	else {
 		cout << "Datei wurde nicht gefunden, moechten Sie diese anlegen? (1 = Ja, 0 = Nein)" << endl;
