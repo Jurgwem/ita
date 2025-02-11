@@ -1,3 +1,4 @@
+![Pic](/1. Jahr/art.png)
 # Daten der ITA32 des BKH
 --------------------------------------------
 Beinhaltet:
