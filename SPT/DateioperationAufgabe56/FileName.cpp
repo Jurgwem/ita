@@ -60,7 +60,6 @@ int main()
         }
         if (erweitern == 2)
         {
-            /*
             fclose(datei);
             datei = fopen(dateiname, "r+");
             cin.ignore();
@@ -69,20 +68,23 @@ int main()
             cin.getline(eingabe, 255);
             strcat(eingabe, "\n");
 
-            char tmp[255];
-            while (tmp = fgets(zeile, 256, datei) != nullptr)
-            {
-                if (fgets(zeile, 256, datei) == strcat(eingabe, "\n"))
+
+
+            while (fgets(zeile, 256, datei) != nullptr) {
+                if (zeile == eingabe)
                 {
-                    cout << "namen hier" << endl;
+                    cout << "PENIS" << endl;
                     break;
                 }
-            } 
+                else
+                {
+                    cout << "suche nach: " << eingabe << "nicht gefunden: " << zeile << endl;
+                }
+            }
             cout << "Wie lautet der lautet der Neue Name? " << endl;
             cin.getline(eingabe, 255);
             strcat(eingabe, "\n");
             fputs(eingabe, datei);
-            */
         }
         
 
