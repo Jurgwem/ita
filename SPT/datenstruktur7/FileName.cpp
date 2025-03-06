@@ -46,5 +46,24 @@ int main()
 	struct Mitarbeiter mitarbeiter2 = { "Bob", "Müller", "3", "999999999€" };
 	einsetzen(datei, mitarbeiter2);
 
+	char vorname[50];
+	char nachname[50];
+	char alter[50];
+	char gehalt[50];
+
+	struct Mitarbeiter mitarbeiter3;
+
+	cout << "Bitte geben vorname ein: " << endl;
+	cin.getline(mitarbeiter3.vorname, 50);
+	cout << "Bitte geben nachname ein: " << endl;
+	cin.getline(mitarbeiter3.nachname, 50);
+	cout << "Bitte geben alter ein: " << endl;
+	cin >> mitarbeiter3.alter;
+	cout << "Bitte geben gehalt ein: " << endl;
+	cin >> mitarbeiter3.gehalt;
+
+	einsetzen(datei, mitarbeiter3);
+
+
 	return 0;
 }
