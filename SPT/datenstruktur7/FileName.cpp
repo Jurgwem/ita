@@ -46,11 +46,6 @@ int main()
 	struct Mitarbeiter mitarbeiter2 = { "Bob", "Müller", "3", "999999999€" };
 	einsetzen(datei, mitarbeiter2);
 
-	char vorname[50];
-	char nachname[50];
-	char alter[50];
-	char gehalt[50];
-
 	struct Mitarbeiter mitarbeiter3;
 
 	cout << "Bitte geben vorname ein: " << endl;

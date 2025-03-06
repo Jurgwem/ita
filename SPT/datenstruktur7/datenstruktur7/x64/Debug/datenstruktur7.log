@@ -1,6 +1,2 @@
 ﻿  FileName.cpp
-C:\Users\Schueler\Documents\GitHub\ita\SPT\datenstruktur7\FileName.cpp(51,7): warning C4101: "alter": Unreferenzierte lokale Variable
-C:\Users\Schueler\Documents\GitHub\ita\SPT\datenstruktur7\FileName.cpp(50,7): warning C4101: "nachname": Unreferenzierte lokale Variable
-C:\Users\Schueler\Documents\GitHub\ita\SPT\datenstruktur7\FileName.cpp(49,7): warning C4101: "vorname": Unreferenzierte lokale Variable
-C:\Users\Schueler\Documents\GitHub\ita\SPT\datenstruktur7\FileName.cpp(52,7): warning C4101: "gehalt": Unreferenzierte lokale Variable
   datenstruktur7.vcxproj -> C:\Users\Schueler\Documents\GitHub\ita\SPT\datenstruktur7\x64\Debug\datenstruktur7.exe
