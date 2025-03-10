@@ -15,8 +15,8 @@
     </div>
     <div class="time">
         <?php
-            //header("Refresh:1"); // Automatisches neu laden der Seite
-            $hour = date("G");
+            header("Refresh:1"); // Automatisches neu laden der Seite
+            $hour = date("H");
             $minute = date("i");
             $second = date("s");
             echo "<p class='clock'>$hour:$minute:$second</p>";
