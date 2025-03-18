@@ -14,8 +14,8 @@
             <input type="text" name="name"> <br><br>
         <p>Bitte Alter angeben:</p>
             <input type="radio" id="age1" name="yob" value="<18">
-            <input type="radio" id="age2" name="yob" value="18-39">
             <label for="age1">Unter 18</label><br>
+            <input type="radio" id="age2" name="yob" value="18-39">
             <label for="age2">18 - 39</label><br>  
             <input type="radio" id="age3" name="yob" value=">40">
             <label for="age3">Über 40</label><br><br>
