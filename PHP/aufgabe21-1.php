@@ -12,8 +12,8 @@ if (empty($_POST["tel"])) {
 }
 else
 {
-    $tel = $_POST["tel"];
-    if (is_numeric($tel))
+    $tel = "tel:" . $_POST["tel"];
+    if (is_numeric($_POST["tel"]))
     {
         //Vorarbeit für QR-Code, kopiert aus der gegebenen "index.php" aus der Library
         //Temporärer Speicherort der QR-Codes wird auf /temp/ gesetzt
