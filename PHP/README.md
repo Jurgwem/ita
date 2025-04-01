@@ -1,7 +1,7 @@
-PHP
+# PHP
+--------------------------------------------
+Internet Aufgaben von "hengesbach.name" 
 
-Hengesbach aufgaben von "hengesbach.name"
-
-Libraries:
-GD - https://libgd.github.io/
-qrlib - https://phpqrcode.sourceforge.net/
+Libraries:<br />
+GD - https://libgd.github.io/ <br />
+qrlib - https://phpqrcode.sourceforge.net/ <br />
