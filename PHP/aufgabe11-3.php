@@ -12,7 +12,7 @@
             echo "<br><br>";
         ?>
         Bitte Passwort eingeben: (<em>Passwort ist 123</em>)
-            <form action="aufgabe11.3.php" method="post" >
+            <form action="aufgab-11.3.php" method="post" >
                 <input type="password" name="passwort" size="20">
                 <input type="submit" value="Absenden">
             </form>

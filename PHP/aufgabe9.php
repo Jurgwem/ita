@@ -4,7 +4,7 @@
 <?php
   if (empty($_POST["passwort"])) {
 ?>
-Bitte Passwort eingeben: ( <em>Passwort ist 123</em> )
+Bitte Passwort eingeben: (<em>Passwort ist 123</em>)
   <form action="aufgabe9.php" method="post" >
   <input type="password" name="passwort" size="20">
   <input type="submit" value="Absenden">

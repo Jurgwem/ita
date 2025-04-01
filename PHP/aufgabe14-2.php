@@ -11,7 +11,7 @@
         if (empty($_POST["name"]) && $check == 0) {
     ?>
 
-    <form action="aufgabe14.2.php" method="post">
+    <form action="aufgabe14-2.php" method="post">
     <label for="name">Name:</label>
         <input type="text" name="name"> <br><br>
         <label for="email">eMail:</label>
@@ -48,7 +48,7 @@
             fclose($fp);
         }
         echo "<hr><h1>Gästebuch<hr></h1>";
-        echo "<form action='aufgabe14.2Part2.php' method='post'><input type='submit' value='Nuke'></form><br>";
+        echo "<form action='aufgabe14-2Part2.php' method='post'><input type='submit' value='Nuke'></form><br>";
         //Ding umdrehen damit der neuste Eintrag oben ist
         $file = file("data/aufgabe14.2.txt");
         $file = array_reverse($file);
