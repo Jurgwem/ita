@@ -1,9 +1,18 @@
-<html><head><title>QR-Code-Lotto</title></head><body>
+<html><head><title>QR-Code-Lotto</title>
+<style>
+@media print {
+    #num {
+        display: none !important;
+    }
+}
+</style>
+</head><body>
 <?php
-    $debug = 0;
+    $debug = 1;
     $result = "Lotto - QR-Code\n\n";
     if ($debug == 1) 
     {
+        echo "<div id='num'>";
         echo "<h1>Lotto - QR-Code</h1>";
         echo "<font size='100'>";
         echo "Lottozahlen, aber als QR-Code<br><br>";    //Aufgabe 4.1
@@ -26,6 +35,7 @@
         } while ($exists);
         $array[$i] = $var;
     }
+    sort($array);
     for ($k = 0; $k <= 6; $k++)
     {
         if ($k != 6)
@@ -39,22 +49,12 @@
             $result .= ("Superzahl: " . $array[$k] . "\n");
         }
     }
-    if ($debug == 1) echo $result;
-
-    $PNG_TEMP_DIR = dirname(__FILE__).DIRECTORY_SEPARATOR.'temp'.DIRECTORY_SEPARATOR;
-    $PNG_WEB_DIR = 'temp/';
+    echo "</div>";
 
     include "qrlib.php";   
 
-    if (!file_exists($PNG_TEMP_DIR))
-    {
-        mkdir($PNG_TEMP_DIR);
-    }
 
-    $filename = $PNG_TEMP_DIR.'telefon.png';
-
-    QRcode::png($result, $filename, "H", 10, 2);  
-    echo '<img src="'.$PNG_WEB_DIR.basename($filename).'" />';
-    
+    QRcode::png($result, "temp/lotto.png", "H", 10, 2);  
+    echo '<img src="temp/lotto.png">';
 ?>
 </body></html>
