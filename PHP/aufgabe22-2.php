@@ -5,7 +5,7 @@
     <script src="lib/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-    <h1>Aufgabe 22.2</h1>
+    <h1>Aufgabe 22.2 - JQuery Einstieg</h1>
 
     <button class="showall">Zeig alle</button>
     <button class="hideall">Verstecke alle</button>
