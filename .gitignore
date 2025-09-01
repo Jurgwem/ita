@@ -1,0 +1,9 @@
+*.csproj
+*.bin
+*.v2
+*.vsidx
+*.suo
+SPT/C#_Test/testing/.vs/
+SPT/C#_Test/testing/obj/
+SPT/C#_Test/testing/bin/Debug/net8.0/testing.deps.json
+SPT/C#_Test/testing/bin/
