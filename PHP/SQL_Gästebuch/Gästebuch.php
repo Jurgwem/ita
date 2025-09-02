@@ -17,6 +17,15 @@
 	$link = mysqli_connect ($host, $user, $password);
 	$result = mysqli_query ($link, "USE $dbname");
 
+	if (!isset($_POST['order']))
+	{
+		$order = "DESC";
+	} 
+	else 
+	{
+		$order = $_POST['order'];
+	}
+
 	//delete callback
 	if (isset($_POST['delete_id'])) 
 	{
@@ -41,6 +50,22 @@
     </form>
 	<?php
 
+	//sorting
+	if ($order == "DESC") 
+	{
+		echo '<form action="Gästebuch.php" method="post">';
+		echo '<input type="hidden" name="order" value="ASC">';
+		echo '<input type="submit" value="Älteste Einträge zuerst anzeigen">';
+		echo '</form>';
+	} 
+	else 
+	{
+		echo '<form action="Gästebuch.php" method="post">';
+		echo '<input type="hidden" name="order" value="DESC">';
+		echo '<input type="submit" value="Neueste Einträge zuerst anzeigen">';
+		echo '</form>';
+	}
+
 	//insert callback
 	if (!empty($_POST["name"]) && !empty($_POST["email"])) 
 	{
@@ -61,7 +86,7 @@
 	//display entries
 	$link = mysqli_connect ($host, $user, $password);
 	$result = mysqli_query ($link, "USE $dbname");
-	$result = mysqli_query ($link, "SELECT * FROM einträge ORDER BY datum DESC, uhrzeit DESC");
+	$result = mysqli_query ($link, "SELECT * FROM einträge ORDER BY datum $order, uhrzeit $order");
 
 	while ($row = mysqli_fetch_array($result, MYSQLI_BOTH)) 
 	{  
@@ -74,6 +99,9 @@
 		echo "<hr>";
 	}	
 
+	unset($_POST['delete_id']);
+	unset($_POST["name"]);
+	unset($_POST["email"]);
 	mysqli_close($link);
 ?></body>
 </html> 	
